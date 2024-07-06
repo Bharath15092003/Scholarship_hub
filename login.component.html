@@ -1,0 +1,15 @@
+
+
+  <div class="background">
+  </div>
+  <form #loginForm="ngForm" (ngSubmit)="onLogin()">
+      <h3>Login Here</h3>
+  
+      <label for="email">Email</label>
+      <input type="text" placeholder="Email " id="username" name="email" [(ngModel)]="loginModel.email"/>
+  
+      <label for="password">Password</label>
+      <input type="password" placeholder="Password" id="password" name="password"  [(ngModel)]="loginModel.password"/>
+  
+      <button type="submit" name="button">Log In</button>
+  </form>

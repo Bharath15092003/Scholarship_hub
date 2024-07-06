@@ -1,0 +1,107 @@
+ <div class="menubar">
+    <form>
+     <h3>Your Present Class</h3>
+     <select  id="PresentClass">
+         <option value="Present Class">Select Class</option>
+         <option value="Graduation">Graduation</option>
+         <option value="Intermediate">INTERMEDIATE</option>
+         <option value="SSC">SSC</option>
+     </select><br>
+     
+    <h3>Your Gender</h3>
+    <select id="Gender" >
+     <option value="Male" >Gender</option>
+     <option value="Female">Male</option>
+     <option value="Others">Female</option>
+    </select>
+    <button type="submit" value="check for scholarships" class="btn1 btn-primary" routerLink="/scholar"><b>Check for scholarships</b></button>
+ </form>
+ 
+ </div> 
+
+ 
+<div class="container">
+  <form #scholarForm="ngForm" (ngSubmit)="onScholar()">
+    <div  class="scholar-container" >
+        <img  class="slogo" src="https://s3-ap-southeast-1.amazonaws.com/cdn.buddy4study.com/static/scholarship_logo/logo_b939a1e5-eaa0-4562-b82a-450aa16fc17a_Telangana_logo.jpg" alt="scholarship-logo" height="80px" width="90px"><br>
+            <div class="content-container">
+                <b name="title">Mahatma Jyothiba Phule Overseas Vidya Nidhi 2023, Telangana</b><br>
+                <p >Award:</p>
+                <p name="award">Up to INR 2 lakh and other</p>
+                <b name="finaldate">Final date:<span>23-10-2023</span></b><br>
+                <button type="submit" class="btn btn-primary" routerLink="/check">View shcolarship</button>
+            </div>
+    </div>
+        <div class="scholar-container">
+        <img  class="slogo" src="https://www.alstom.com/sites/alstom.com/files/2020/12/22/vlcsnap-2020-12-21-18h57m38s865.png" alt="scholarship-logo" height="80px" width="90px"><br>
+            <div class="content-container">
+                <b>Alstom India Scholarship for STEM Education at Specified Colleges 2023-24</b><br>
+                <p>Award:</p>
+                <p>Up to INR 75,000 </p>
+                <b>Final date:<span>15-11-2023</span></b><br>
+                <button type="submit" class="btn btn-primary" routerLink="/check">View shcolarship</button>
+            </div>
+    </div>
+        <div class="scholar-container">
+        <img  class="slogo" src="https://d2w7l1p59qkl0r.cloudfront.net/static/scholarship_logo/document_1639399008.png" alt="scholarship-logo" height="80px" width="90px">
+            <div class="content-container">
+                <b>Reliance Foundation Undergraduate Scholarships 2023-24</b><br>
+                <p>Award:</p>
+                <p>Up to INR 2 lakhs </p>
+                <b>Final date:<span>19-10-2023</span></b><br>
+                <button type="submit" class="btn btn-primary" routerLink="/check">View shcolarship</button>
+            </div>
+    </div>
+    <div class="scholar-container">
+        <img  class="slogo" src="https://pmmodiyojana.in/wp-content/uploads/2022/11/image-74.png" alt="scholarship-logo" height="80px" width="90px"><br>
+            <div class="content-container">
+                <b>Post Matric Scholarship (PMS) for BC/EBC Category, Bihar 2023-24</b><br>
+                <p>Award:</p>
+                <p>Up to INR 15,000 per annum</p>
+                <b>Final date:<span>9-12-2023</span></b><br>
+                <button type="submit" class="btn btn-primary" routerLink="/check">View shcolarship</button>
+            </div>
+    </div>
+    <div class="scholar-container">
+        <img  class="slogo" src="https://d2w7l1p59qkl0r.cloudfront.net/static/scholarship_logo/logo_23961_1695724781.png" alt="scholarship-logo" height="80px" width="90px"><br>
+            <div class="content-container">
+                <b>Sports Talent Search Scholarship (STSS), Assam 2023-24</b><br>
+                <p>Award:</p>
+                <p>Up to INR 20,000 (one-time)</p>
+                <b>Final date:<span>30-11-2023</span></b><br>
+                <button type="submit" class="btn btn-primary" routerLink="/check">View shcolarship</button>
+            </div>
+    </div>
+    <div class="scholar-container">
+        <img  class="slogo" src="https://d2w7l1p59qkl0r.cloudfront.net/static/scholarship_logo/document_1685627219.jpg"alt="scholarship-logo" height="90px" width="90px"><br>
+            <div class="content-container">
+                <b>Kotak Kanya Scholarship 2023</b><br>
+                <p>Award:</p>
+                <p>Up to INR 1.5 lakh per year</p><br>
+                <b>Final date:<span>2-10-2023</span></b><br>
+                <button type="submit" class="btn btn-primary"routerLink="/check">View shcolarship</button>
+            </div>
+    </div>
+
+    <div class="scholar-container">
+        <img  class="slogo" src="https://d2w7l1p59qkl0r.cloudfront.net/static/scholarship_logo/document_1657875837.jpg" alt="scholarship-logo" height="80px" width="90px"><br>
+            <div class="content-container">
+                <b>HDFC Bank Parivartan's ECSS Programme for Undergraduate Courses 2023-24</b><br>
+                <p>Award:</p>
+                <p>Up to INR 50,000 /p>
+                <b>Final date:<span>13-10-2023</span></b><br>
+                <button type="submit" class="btn btn-primary"routerLink="/check">View shcolarship</button>
+            </div>
+    </div>
+    <div class="scholar-container">
+        <img  class="slogo" src="https://d2w7l1p59qkl0r.cloudfront.net/static/scholarship_logo/logo_23787_1688443038.png" alt="scholarship-logo" height="80px" width="90px"><br>
+            <div class="content-container">
+                <b>Indiabulls Foundation Education Support Program 2023</b><br>
+                <p>Award:</p>
+                <p>Academic expenses</p>
+                <b>Final date:<span>4-11-2023</span></b><br>
+                <button type="submit" class="btn btn-primary" routerLink="/check">View shcolarship</button>
+            </div>
+    </div>
+</form>
+</div>

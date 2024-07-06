@@ -1,0 +1,90 @@
+.menubar{
+    margin: auto;
+    margin-top: 10px;
+    height:300px;
+    width:600px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: black;
+    border-style: inset;
+    background-color: transparent;
+   background-image: url('https://img.freepik.com/free-vector/v915_53876-174949.jpg?w=1380&t=st=1696050651~exp=1696051251~hmac=aafab00bd727c7cfd755a57a3ee1a042eccb433613647cca9d6628b3ac60e33d');
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    font-size:large;
+    font-size:large;
+    font-family:'Times New Roman', Times, serif;
+}
+#PresentClass{
+    height:35px;
+    width:250px;
+    border-radius: 100px;
+    margin-top: 50px;
+    margin-left: 75px;
+}
+
+#Gender{
+    height:35px;
+    width:250px;
+    border-radius:100px;
+    margin-top: 50px;
+    margin-left: 145px;
+    
+} 
+.menubar h3{
+    margin-left: 10px;
+    margin-top: 50px;
+}
+.btn1{
+    height:40px;
+    width:230px;
+    margin-top: 60px;
+    margin-left: 170px;
+    border-radius: 20px;
+}
+.container{
+    margin-top:20px;
+    margin-bottom: 30px;
+    height:1000px;
+    width:90%;
+    background-color: rgb(252, 226, 193);
+    background-image: url('https://img.freepik.com/free-photo/detailed-structure-marble-natural-pattern-background-design_1258-79155.jpg?w=740&t=st=1696052970~exp=1696053570~hmac=96a63d61ce44860728f66662f61bf9a5eafecc2b15aadad7cca6c0205c17f43c');
+}
+form{
+    display:flex;
+    flex-wrap:wrap;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: transparent;
+    color: rgb(12, 12, 12);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.scholar-container{
+ background-image: url('https://img.freepik.com/free-photo/elevated-view-beige-orange-cardboard-papers-corner-grey-background_23-2147878482.jpg?w=1060&t=st=1696052746~exp=1696053346~hmac=8eb3ef29721075133df1fc3b5351b7bea49abbaa7f60c703e2f02384028a8026');
+ border-radius: 10px;
+ border: 2px solid rgba(255,255,255,0.1);
+ box-shadow: 0 0 40px rgba(8,7,16,0.6);
+ width:300px;
+ height: 300px;
+ margin-top: 20px;
+ margin-left: 130px;
+ text-align: center;
+}
+.scholar-container:hover{
+    width:310px;
+    height:310px;
+    border-width: 4px;
+    border-color: black;
+    border-style:outset;
+}
+.content-container{
+    width:250px;
+    height:200px;
+    margin-left: 20px;
+    font-size: 15px;
+}
+.btn{
+    font-size: 13px;
+    margin-top: 10px;
+}

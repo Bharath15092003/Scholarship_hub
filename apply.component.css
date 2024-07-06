@@ -1,0 +1,58 @@
+.apply-container{
+    background-image: url('https://img.freepik.com/free-vector/blue-business-background-with-blocks_53876-114865.jpg?w=740&t=st=1696059873~exp=1696060473~hmac=a611c036454957e51ac1ecd06bc6ef4b48ace529ce3d2acc25bbca1735c3f5ea');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.steps{
+    font-size:large;
+    font-family:fantasy;
+}
+.steps p{
+    font-size: 20px;
+    color: black;
+    font-weight: 800;
+
+
+}
+button{
+    height:50px;
+    width:200px;
+    border-radius: 20px;
+    margin-left:300px;
+    margin-bottom: 5px;
+}
+
+h3{
+    font-family: Calibri; 
+    font-size: 25pt;         
+    font-style: normal; 
+    font-weight: bold; 
+    color:SlateBlue;
+    text-align: center; 
+    text-decoration: underline;
+    margin-right: 500px;
+  }
+  
+  table{
+    font-family: Calibri; 
+    color:black; 
+    font-size: 11pt; 
+    font-style: normal;
+    font-weight: bold; 
+    background-color:antiquewhite;
+    border-collapse: collapse; 
+    border: 2px solid navy;
+    margin-left: 120px;
+    height:50px;
+    width:750px;
+    
+    
+  }
+  table.inner{
+    border: 0px
+  }
+.files p{
+    height:30px;
+    margin-left: 10px;   
+ 
+}

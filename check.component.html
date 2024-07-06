@@ -1,0 +1,55 @@
+<div class="about-container">
+   <h1><u>About the Program:</u></h1>
+    <div class="about">   
+        <b>
+         Mahatma Jyothiba Phule Overseas Vidya Nidhi 2023, Telangana is an initiative by the Backward Classes Welfare Department, Government of Telangana for BC and EBC category students who want to pursue UG, PG, and Ph.D. level courses in abroad. The key objective of the scheme is to enable the benefit of higher education in foreign universities to meritorious students thereby providing them with an opportunity for better career prospects within the country.
+        The selected candidates will receive a scholarship of up to INR 2 lakh or as mentioned in the admission letter (whichever is less). Additionally, students will receive one-way flight tickets (economic class) and visa charges.
+        </b>
+        </div>
+        <h1><u>Check your eligibility:</u></h1>
+        <div class="eligibility">
+            <form  (ngSubmit)="onSelectionChange()">&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="Residentof">RESIDENT:</label>
+                 <select id="Residentof"  [(ngModel)]="selectedOption">
+                 <option value="RESIDENTOF">Select Resident</option>
+                 <option value="Telangana">TELANGANA</option>
+                 <option value="AndhraPradesh">ANDHRAPRADESH</option>
+                 </select>
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
+            <label for="Caste">CASTE:</label>
+            <select id="Caste"  [(ngModel)]="selectedOption">
+             <option value="Select Caste">Your Caste</option>
+             <option value="General">General</option>
+             <option value="BC">BC</option>
+             <option value="BC-A">BC-A</option>
+             <option value="SC">SC</option>
+             <option value="ST">ST</option>
+            </select>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <label for="Age">AGE:</label>
+         <select id="Age" name="age">
+            <option ></option>
+            <option value="11-15">11-15</option>
+            <option value="16-19">16-19</option>
+            <option value="20-25">20-25</option>
+            <option value="Greater than 25">Greater than 25</option>
+         </select>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         &nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="COLLEGE">COLLEGE:</label>
+         <input type="text"  name="college">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="Income">INCOME:</label>
+         <select id="Income" name="income"   [(ngModel)]="selectedOption">
+            <option value="Income">Annual Income</option> 
+            <option value="greater than 5,00,000" >greater than 5,00,000</option>
+            <option value="less than 5,00,000">Less than 5,00,000</option>
+         </select>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <label for ="CGPA">CGPA:</label>
+            <input type ="text"  name="cgpa" >
+            <button type="submit" class="btn btn-success">SUBMIT</button>
+        </form>
+        </div>        
+</div>

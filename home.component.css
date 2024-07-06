@@ -1,0 +1,102 @@
+
+marquee{
+  margin-top:10px;
+  text-align: center;
+  font-size:20px;
+  margin-left: 90px;
+  font-family:'Times New Roman', Times, serif;
+  background-color: rgb(248, 248, 247);
+  border-color: rgb(243, 174, 84);
+  border-width: 10px;
+  border-style:inset ;
+}
+.news{
+  width:100px;
+  height:50px;
+  background-color: blue;
+  margin-top: 2;
+}
+.content{
+   
+        width: 100%;
+        height: 86.5vh;
+        background-repeat: no-repeat; 
+        background-size:100%  100%; 
+        position:center bottom;
+        display:flex;
+        overflow-y: hidden; 
+  }
+  .content img{
+    margin-left: 300px;
+    margin-top: 150px;
+    height:"200px" ;
+    width:"200px";
+  }
+  .content h2{
+    font-size: 40px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    justify-content: center;
+   
+  }
+  .container1{
+    width: 100%;
+    position:absolute;
+   background-size:100% 100%;
+}
+.container1 h2{
+    color:#363535;
+    font-display:unset;
+    font-weight: 500;
+}
+.container1 h3{
+    color:#dcd6d6
+
+}
+  a{
+    color: #fff;
+  }
+  
+.footer{
+  background-color:burlywood;
+  background-image: url('https://img.freepik.com/free-photo/straightedges-pen-copy-space_23-2147654036.jpg?w=1060&t=st=1696257630~exp=1696258230~hmac=b365446227b318172b93a326d4f62462b11895ec6962f4c922ca8c2e74c72f46');
+  width: 100%;
+  height:70px;
+  margin-top:-70px;
+  display: flex;
+  text-align: center;
+  font-weight: 500;
+  font-size: large;
+  border-width: 4px;
+  border-style: inset;
+  border-color: #000000;
+  border-style: inset;
+
+}
+.content-container{
+  height: 400px;
+  width: 700px;
+  margin-left: 20px;
+  margin-top: 50px;
+ 
+
+}
+.content-container> h1{
+  font-size: 80px;
+  font-weight: 400;
+  font-family: cursive;
+}
+.footer >h3{
+  margin-left: 10px;
+}
+.footer > svg{
+   margin-top: 13px;
+   margin-left: 380px;
+
+}
+.user{
+ background-image: url('https://img.freepik.com/free-photo/top-view-globe-with-academic-cap-laptop_23-2148756556.jpg?w=1060&t=st=1696015594~exp=1696016194~hmac=603eab3886cd748a8f97f914452f456bdb41bb6fd6f0763e1f39b17263833cf0');
+  background-repeat: no-repeat;
+  background-size: 100% 90%;
+  height:30%;
+  margin-bottom: -20px;
+}
